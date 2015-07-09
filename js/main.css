@@ -33,9 +33,24 @@ section
 footer
 {
     color: #8b8b8b;
+    text-align: center;
 }
 
 #twitter
 {
     padding-right: 100px;
+}
+
+#gallery
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#gallery li
+{
+    float: left;
+    width: 20%;
+    margin: 2.5%;
 }
