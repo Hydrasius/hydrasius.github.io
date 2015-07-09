@@ -1,3 +1,8 @@
+a
+{
+    text-decoration: none;
+}
+
 body
 {
     background-color: black;
@@ -10,17 +15,23 @@ body
 h1
 {
     font-size: 40px;
-    color: #32CD32;
+    color: #ffffff;
 }
 
 h2
 {
     font-size: 30px;
-    color: #FF0000;
+    color: #bbbbbb;
 }
 
 section
 {
     margin: 200px 0 200px;
     line-height: 200px;
+}
+
+footer
+{
+    color: #8b8b8b;
+
 }
