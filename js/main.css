@@ -1,8 +1,8 @@
-a
+body
 {
     background-color: black;
     color: white;
-    font-family: 'Montserrat', Comic Sans MS;
+    font-family: 'Indie Flower', Comic Sans MS;
     weight: normal;
     font-size: 20px;
 }
@@ -17,4 +17,9 @@ h2
 {
     font-size: 30px;
     color: #FF0000;
+}
+
+section
+{
+    margin: 200px 0 200px;
 }
