@@ -12,7 +12,7 @@ $(document).ready(function(){ // on document loadup
         audioElement.play();
     }, true); // setting it to true makes it bubbled (read docs for document.ready();
 
-    $('img').click(function(){
+    $('.jcena').click(function(){
         event.preventDefault();
         audioElement.play();
     })
