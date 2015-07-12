@@ -84,3 +84,12 @@ footer
 {
     list-style: none;
 }
+#shit
+{
+    width: 1000px;
+    height: 1000px;
+    background-color: pink;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
