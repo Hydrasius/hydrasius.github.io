@@ -1,8 +1,7 @@
 /**
  * Created by spook_000 on 7/8/2015.
  */
-var income = 0;
-var isAnimating = false;
+
 
 $(document).ready(function(){ // on document loadup
     var audioElement = document.createElement('audio'); // create variable audioElement inheriting audio
@@ -21,18 +20,26 @@ $(document).ready(function(){ // on document loadup
 });
 
 // TESTING
+$('section#changeme').append($test);
+$test.append($cd);
 
-$('#test').click(function(){
+
+$test.click(function(){
     runInc();
 })
 
-$('#test').append('<div style = "height:1000px; width:1000px; background-color: red; z-index: 900; position: absolute;  "></div>')
 
 function runInc(){
     if (!isAnimating){
         isAnimating = true;
-        $("#test > div").width("1000px").stop(true, true).animate({width: '0%'}, 1000, 'linear', function(){
+        changeInc();
+        $($cd).width("100%").stop(true, true).animate({width: '0%'}, 1000, 'linear', function(){
             isAnimating = false;
+            income += 1;
         });
     }
+}
+
+function changeInc(){
+    $cd.text(income);
 }
