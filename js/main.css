@@ -59,13 +59,16 @@ footer
     margin: 2.5%;
 }
 
-#test
+div#test
 {
     width: 1000px;
     height: 1000px;
     background-color: white;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    display: inline-block;
 }
 
 footer
@@ -84,12 +87,13 @@ footer
 {
     list-style: none;
 }
-#shit
+div#test div#shit
 {
-    width: 1000px;
-    height: 1000px;
-    background-color: pink;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+    color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    height: 100%;
+    background-color: #DDDDDD;
 }
